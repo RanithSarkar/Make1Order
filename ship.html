@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Shipment</title>
+    <link rel="icon" href="Logo.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ship.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- header -->
+      <div class="header">
+          <img class="logo" src="Logo.webp" alt="Logo">
+          <h1 class="name">Make1order.in</h1>
+      </div>
+      <!-- body -->
+      <div class="round1"></div>
+      <p class="fill">Fill the</p>
+      <p class="fill2 fill">form</p>
+      <div class="container">
+      <form onsubmit="sendEmail(); reset(); return false;">
+          <!-- sender -->
+              <input type="text" id="name" placeholder="&nbsp;&nbsp;Sender Name*" required>
+              <input type="email" id="email" placeholder="&nbsp;&nbsp;Sender Email (Optional)">
+              <input type="number" id="phone" placeholder="&nbsp;&nbsp;Sender Phone Number*" required>
+              <input type="text" id="message" placeholder="&nbsp;&nbsp; Complete Pickup Address With Pincode*" required>
+              <!-- reciver -->
+              <input type="text" id="RRname" placeholder="&nbsp;&nbsp;Receiver Name*" required>
+              <input type="email" id="RRemail" placeholder="&nbsp;&nbsp;Receiver Email (Optional)">
+              <input type="number" id="RRphone" placeholder="&nbsp;&nbsp;Receiver Phone Number*" required>
+              <input type="text" id="RRmessage" placeholder="&nbsp;&nbsp; Complete Delivery Address With Pincode*" required>
+              <input type="number" id="weight" placeholder="&nbsp;&nbsp;Percel Weight In KG*" required>
+              <input type="number" id="length" placeholder="&nbsp;&nbsp;Percel Length In CM*" required>
+              <input type="number" id="breadth" placeholder="&nbsp;&nbsp;Percel Breadth In CM*" required>
+              <input type="number" id="height" placeholder="&nbsp;&nbsp;Percel Height In CM*" required>
+              
+              
+              
+              
+              
+              <div class="submit0">
+                  <button type="submit" id="submit">Submit</button>
+              </div>
+           </form>
+           </div>
+           <div class="zz"></div>
+           <script src="https://smtpjs.com/v3/smtp.js"></script>
+       <script src="ship.js"></script>
+  </body>
+</html>

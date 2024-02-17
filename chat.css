@@ -1,0 +1,162 @@
+.HA{
+  box-shadow:0 0 1.5vw #dc3545;
+}
+.contactAnchar{
+  box-shadow:0 0 1.5vw #ff5e00;
+}
+.contact0{
+  font-size:10vw;
+  margin:15vw 0 0 3vw;
+  font-weight:bold;
+  color:#fff;
+}
+.contact1{
+  color:#fff;
+  font-family:'Caveat',Tahoma;
+  margin-left:3vw;
+  font-size:4vw;
+}
+.container{
+  position:absolute;
+  height:115vw;
+  width:100vw;
+  margin-top:50vw;
+}
+.con{
+    position: absolute;
+    margin-top: 30vw;
+    font-weight: bold;
+    font-size: 9vw;
+    left: 8vw;
+}
+.con1{
+    left: 42vw;
+    color: #f29900;
+}
+.r1{
+    margin-top: 23vw;
+}
+.GIT{
+  font-size:9vw;
+  font-weight:bold;
+  font-family:'Caveat',Tahoma;
+  margin-left:7vw;
+  z-index:1;
+}
+form{
+  display:flex;
+  flex-direction:column;
+}
+input{
+  border:0;
+  height:15vw;
+  width:86vw;
+  position:absolute;
+  border-radius:3vw;
+  background-color:#fdf7df;
+  color:#9b5300;
+  font-weight:bold;
+  font-size:3.5vw;
+}
+#name{
+  margin:15vw 0 0 7vw;
+}
+#email{
+  margin:34vw 0 0 7vw;
+}
+#phone{
+  margin:53vw 0 0 7vw;
+}
+#message{
+  margin:72vw 0 0 7vw;
+}
+::placeholder{
+  color:#9b5300;
+}
+input:focus{
+  border:2px solid green;
+}
+.submit0{
+  display:flex;
+  justify-content:center;
+  margin-top:90vw;
+}
+#submit{
+  height:7vw;
+  width:86vw;
+  position:absolute;
+  border-radius:44vw;
+  border:0;
+  color:#fff;
+  background-color:#9b5300;
+  font-weight:bold;
+  font-size:3.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:500px){
+  .contact0{
+      font-size:5vw;
+      margin-top:5vw;
+  }
+  .contact1{
+      font-size:1.5vw;
+  }
+  .contact{
+      height:15vw;
+  }
+  .GIT{
+      font-size:4vw;
+      top:-30vw;
+      position: absolute;
+  }
+  input{
+  height:7vw;
+  width:40vw;
+  border-radius:1vw;
+  font-size:1.5vw;
+  }
+  #name{
+  margin:-22vw 0 0 7vw;
+  }
+  #email{
+  margin:-22vw 0 0 54vw;
+  }
+  #phone{
+  margin:-13vw 0 0 7vw;
+  }
+  #message{
+  margin:-13vw 0 0 54vw;
+  }
+  #submit{
+  height:4vw;
+  width:40vw;
+  font-size:1.5vw;
+  top:0;
+  }
+  .container{
+      height:4vw;
+  }
+  .con{
+      margin-top: 15vw;
+      font-size: 3.85vw;
+  }
+  .con1{
+      left: 22.5vw;
+  }
+  .r1{
+      margin-top: 13.5vw;
+  }
+}

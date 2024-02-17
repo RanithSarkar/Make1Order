@@ -1,0 +1,96 @@
+.round1{
+    margin-top: 27vw;
+}
+.fill{
+    position: absolute;
+    font-size: 7vw;
+    margin-top: 35.5vw;
+    font-weight: bold;
+    left: 9vw;
+}
+.fill2{
+    left: 32vw;
+    color:#f29900;
+}
+#RRname{
+    margin:91vw 0 0 7vw;
+}
+#RRemail{
+    margin:110vw 0 0 7vw;;
+}
+#RRphone{
+    margin:129vw 0 0 7vw;
+}
+#RRmessage{
+    margin: 148vw 0 0 7vw;
+}
+#weight{
+    margin: 167vw 0 0 7vw;
+}
+#length{
+    margin: 186vw 0 0 7vw;
+}
+#breadth{
+    margin: 205vw 0 0 7vw;
+}
+#height{
+    margin: 224vw 0 0 7vw;
+}
+#submit{
+    margin-top: 155vw;
+}
+.zz{
+    width: 100vw;
+    height: 22vw;
+    position: absolute;
+    margin-top: 303vw;
+}
+
+
+@media only screen and (min-width:500px){
+  .round1{
+      margin-top: 12vw;
+  }
+  .fill{
+      margin-top: 15vw;
+      font-size: 2.275vw;
+      left: 11vw;
+  }
+  .fill2{
+      margin-top: 15vw;
+      left: 18.5vw;
+  }
+  #RRname{
+     margin: 0 0 0 7vw;
+  }
+  #RRemail{
+      margin: 0 0 0 54vw;
+  }
+  #RRphone{
+      margin: 9vw 0 0 7vw;
+  }
+  #RRmessage{
+      margin: 9vw 0 0 54vw;
+  }
+  #weight{
+      margin: 21vw 0 0 7vw;
+  }
+  #length{
+      margin: 21vw 0 0 54vw;
+  }
+  #breadth{
+      margin: 30vw 0 0 7vw;
+  }
+  #height{
+      margin: 30vw 0 0 54vw;
+  }
+  #submit{
+    margin-top: 42vw;
+  }
+.zz{
+    margin-top: 110vw;
+}
+
+
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Make1Order">
+        <link rel="icon" href="Logo.webp">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="chat.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    </head>
+    <body>     
+        <!-- header -->
+      <div class="header">
+          <img class="logo" src="Logo.webp" alt="Logo">
+          <h1 class="name">Make1order.in</h1>
+      </div>
+       <!-- body -->
+       <div class="r1 round1"></div>
+       <p class="con">Contact</p>
+       <p class="con con1">Us</p>
+       <div class="container">
+           <form onsubmit="sendEmail(); reset(); return false;">
+              <input type="text" id="name" placeholder="&nbsp;&nbsp;Name" required>
+              <input type="email" id="email" placeholder="&nbsp;&nbsp;Email" required>
+              <input type="number" id="phone" placeholder="&nbsp;&nbsp;Phone Number" required>
+              <input type="text" id="message" placeholder="&nbsp;&nbsp;Type Your Message" required>
+              <div class="submit0">
+                  <button type="submit" id="submit">Submit</button>
+              </div>
+           </form>
+       </div>
+       <script src="index1.js"></script>
+       <script src="https://smtpjs.com/v3/smtp.js"></script>
+       <script src="chat.js"></script>
+   </body>
+</html>

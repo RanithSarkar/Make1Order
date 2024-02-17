@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:tahoma;
+}
+.header{
+    background-color:#9b5300;
+    width:100vw;
+    height:12vw;
+    position: absolute;
+    display:flex;
+    align-items:center;
+    z-index:10;
+    box-shadow:0vw 1vw 2vw bllack;
+    position:fixed;
+}
+.logo{
+    width:10vw;
+    margin:0vw 0 0 1vw;
+    position: absolute;
+}
+.name{
+    position: absolute;
+    font-size:5vw;
+    margin-left:14vw;
+    color:white;
+    font-family: "Protest Riot";
+}
+.boxImage{
+    position: absolute;
+    width:100vw;
+    margin-top:12vw;
+}
+.back{
+    position: absolute;
+    background-color:#9b5300;
+    margin-top:30.5vw;
+    left:22vw;
+    border-radius:2vw;
+    height:9vw;
+    width:44vw;
+}
+.text{
+    margin-top:23vw;
+    position: absolute;
+    color:#ffffff;
+    font-weight:bold;
+    left:4vw;
+    right:4vw;
+    font-size:7vw;
+}
+.ship0{
+    position: absolute;
+    margin-top:73vw;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
+.ship{
+    position: absolute;
+    height:8vw;
+    width:50vw;
+    background-color:#a75900;
+    padding:0vw;
+    border-radius:2vw;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    color:#fff;
+    font-size:4vw;
+}
+.why1{
+    position: absolute;
+    margin-top:100vw;
+    font-weight:bold;
+    font-size:7vw;
+    left:10vw;
+}
+.round1{
+    position: absolute;
+    height:25vw;
+    width:25vw;
+    margin-top:91vw;
+    background-color:#fdf7df;
+    border-radius:100vw;
+    z-index:-1;
+    left:1vw;
+}
+.why2{
+    left:50vw;
+    color:#f29900;
+}
+.parent1{
+    position: absolute;
+    margin-top:150vw;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
+.round2{
+    position: absolute;
+    height:70vw;
+    width:70vw;
+    background-color:#fdf7df;
+    border-radius:100vw;
+}
+.text1{
+    position: absolute;
+    font-size:7vw;
+    font-weight:bold;
+    color:#f29900;
+    margin-top:-8vw;
+}
+.text2{
+    color:#000000;
+    margin-top:2vw;
+}
+.lowprice{
+    position: absolute;
+    width:14vw;
+    margin-top:29vw;
+}
+.round3{
+    margin-top:87vw;
+}
+.text3{
+    margin-top:80vw;
+}
+.text4{
+    color:#000;
+    margin-top:89vw;
+}
+.realtimetracking{
+    margin-top:115vw;
+}
+.round4{
+    margin-top:174vw;
+}
+.text5{
+    margin-top:166vw;
+}
+.text6{
+    color:#000;
+    margin-top:176vw;
+}
+.delivery{
+    margin-top:203vw;
+}
+.footer{
+    position: absolute;
+    height:27vw;
+    width:100vw;
+    margin-top:415vw;
+    background-color:#fdd069;
+}
+.footerC{
+    text-decoration:none;
+    position: absolute;
+    color:#8d572f;
+    margin:2vw 0 0 2vw;
+    height:4vw;
+    width:35vw;
+    padding:2vw;
+    border-radius:6vw;
+    font-weight:bold;
+    font-size:4vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 0.5vw solid #8d572f;
+    background-color: white;
+}
+.footertc{
+    right:2vw;
+    position: absolute;
+    width:35vw;
+}
+.copy{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    margin-top:16vw;
+    border: 0;
+    background-color: #fdd069;
+}
+    
+    
+
+@media only screen and (min-width:500px){
+  div.header{
+      height: 4.2vw;
+  }
+  .logo{
+      width: 3.8vw;
+  }
+  .name{
+      font-size: 2vw;
+      margin-left: 6vw;
+  }
+  .boxImage{
+      margin-top: 4.2vw;
+  }
+  .back{
+    margin-top:23vw;
+    left:26.5vw;
+    border-radius:2vw;
+    height:4.5vw;
+    width:66.5vw;
+  }
+  .text{
+      font-size: 4vw;
+  }
+  .ship0{
+      margin-top: 45vw;
+  }
+  .ship{
+      font-size: 1.3vw;
+      width: 18vw;
+      height: 2vw;
+      box-shadow: 0 0 0.5vw #fff;
+      border-radius: 0.5vw;
+  }
+  .why1{
+      font-size: 2.275vw;
+      margin-top: 70vw;
+  }
+  .round1{
+      height: 8.125vw;
+      width: 8.125vw;
+      margin-top: 67vw;
+      left: 7vw;
+  }
+  .why2{
+      left: 23vw;
+  }
+  .round2{
+      height: 22.75vw;
+      width: 22.75vw;
+      left: 7vw;
+      margin-top: -60vw;
+  }
+  .round3{
+      left: 38.625vw;
+  }
+  .round4{
+      position: absolute;
+      left: 71vw;
+  }
+  .text1{
+      font-size: 2.275vw;
+      margin-top: -62.5vw;
+      left: 13.5vw;
+  }
+  .text2{
+      margin-top: -59.5vw;
+      left: 11.5vw;
+  }
+  .text3{
+      left: 40.5vw;
+  }
+  .text4{
+      margin-top: -59.5vw;
+      left: 42.5vw;
+  }
+  .text5{
+      left: 73.5vw;
+  }
+  .text6{
+      margin-top: -59.5vw;
+      left: 71vw;
+  }
+  .lowprice{
+      width: 4.55vw;
+      margin-top: -51vw;
+      left: 16.5vw;
+  }
+  .realtimetracking{
+      left: 47.5vw;
+  }
+  .delivery{
+      left: 80.5vw;
+  }
+  .footer{
+      margin-top: 125vw;
+  }
+  .footerC{
+      font-size: 1.3vw;
+      height:1.3vw;
+      width:11.375vw;
+      padding:0.65vw;
+      border-radius:1.95vw;
+      border: 0.1625vw solid #8d572f;
+  }
+  .footertc{
+      left: 15vw;
+  }
+  .copyright{
+      border: 0;
+      height: 2vw;
+      margin-top: 19vw;
+  }
+  
+  
+  
+}
