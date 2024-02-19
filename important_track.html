@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracking ID Form</title>
+  <style>
+    /* Optional: Some basic styling for better appearance */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bolder;
+      color: #f29900;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+      border: 0;
+      background-color: #fdf7df;
+      border-radius: 4px;
+      font-weight: bolder;
+      color: #a65901;
+    }
+    button {
+      background-color: #a65901;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    ::placeholder{
+        color: #a65901;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="trackingForm">
+    <!-- Tracking ID Input -->
+    <label for="trackingId">Tracking ID:</label>
+    <input type="text" id="trackingId" placeholder="enter tracking id here" name="trackingId" required>
+
+    <!-- Submit Button -->
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+
+  <script>
+    function submitForm() {
+      // Get the value entered in the tracking ID input
+      var trackingIdValue = document.getElementById("trackingId").value;
+
+      // Check if the tracking ID is not empty
+      if (trackingIdValue.trim() !== "") {
+        // Construct the URL with the tracking ID value
+        var url = "https://make1order.in/" + encodeURIComponent(trackingIdValue);
+
+        // Open the URL in a new tab/window
+        window.open(url, "_blank");
+      } else {
+        // Inform the user that the tracking ID is required
+        alert("Please enter a Tracking ID before submitting.");
+      }
+    }
+  </script>
+
+</body>
+</html>
