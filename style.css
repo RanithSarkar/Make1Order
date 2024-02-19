@@ -59,7 +59,7 @@
 .ship{
     position: absolute;
     height:8vw;
-    width:50vw;
+    width:45vw;
     background-color:#a75900;
     padding:0vw;
     border-radius:2vw;
@@ -70,6 +70,10 @@
     font-weight:bold;
     color:#fff;
     font-size:4vw;
+    left: 3.333vw;
+}
+.ship1{
+    left:51.666vw;
 }
 .why1{
     position: absolute;
@@ -210,7 +214,7 @@
     left:26.5vw;
     border-radius:2vw;
     height:4.5vw;
-    width:66.5vw;
+    width:31vw;
   }
   .text{
       font-size: 4vw;
@@ -220,7 +224,7 @@
   }
   .ship{
       font-size: 1.3vw;
-      width: 18vw;
+      width: 45vw;
       height: 2vw;
       box-shadow: 0 0 0.5vw #fff;
       border-radius: 0.5vw;
