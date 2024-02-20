@@ -101,8 +101,8 @@
         // Construct the URL with the tracking ID value
         var url = "https://make1order.in/" + encodeURIComponent(trackingIdValue);
 
-        // Open the URL in a new tab/window
-        window.open(url, "_blank");
+        
+        window.location.href = url;
 
         // Return false to prevent the form from submitting
         return false;
