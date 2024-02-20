@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tracking ID Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Logo.webp">
   <style>
     /* Optional: Some basic styling for better appearance */
     body {
@@ -40,26 +42,56 @@
       cursor: pointer;
       font-weight: bold;
     }
-    button:hover {
-      background-color: #45a049;
+        
+    .ranith{
+        margin-top: 15vw;
+    }
+    .header{
+        top:0;
+        left:0;
     }
     ::placeholder{
         color: #a65901;
     }
+    
   </style>
 </head>
 <body>
+    <!-- header -->
+      <div class="header">
+          <img class="logo" src="Logo.webp" alt="Logo">
+          <h1 class="name">Make1order.in</h1>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="ranith">
 
-  <form id="trackingForm">
+  <form id="trackingForm" onsubmit="return submitForm()">
     <!-- Tracking ID Input -->
     <label for="trackingId">Tracking ID:</label>
-    <input type="text" id="trackingId" placeholder="enter tracking id here" name="trackingId" required>
+    <input type="text" id="trackingId" name="trackingId" placeholder="enter tracking ID here" oninput="convertToUppercase(this)" required>
 
     <!-- Submit Button -->
-    <button type="button" onclick="submitForm()">Submit</button>
+    <button type="submit">Submit</button>
   </form>
 
+
+
+</div>
   <script>
+      
+      function convertToUppercase(input) {
+      input.value = input.value.toUpperCase();
+      }
+      
+      
+      
+      
     function submitForm() {
       // Get the value entered in the tracking ID input
       var trackingIdValue = document.getElementById("trackingId").value;
@@ -71,9 +103,15 @@
 
         // Open the URL in a new tab/window
         window.open(url, "_blank");
+
+        // Return false to prevent the form from submitting
+        return false;
       } else {
         // Inform the user that the tracking ID is required
         alert("Please enter a Tracking ID before submitting.");
+
+        // Return true to allow the form to submit
+        return true;
       }
     }
   </script>
