@@ -195,9 +195,6 @@
 body {
   user-select: none;
 }
-img {
-  user-select: none;
-}
     
 
 @media only screen and (min-width:500px){
